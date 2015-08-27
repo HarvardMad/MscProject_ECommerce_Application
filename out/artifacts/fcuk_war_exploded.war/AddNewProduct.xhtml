@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=UTF-8" />
+
+    <title>New Product</title>
+</h:head>
+<body>
+<h3>Add new Product Items below</h3>
+
+<h:form>
+    <h3>Item Code:</h3><h:inputText value="#{newProduct.itemCode}"></h:inputText>
+
+    <h3>Item Description:</h3><h:inputText value="#{newProduct.itemDescription}"></h:inputText>
+    <h3>Unit Price:</h3>
+    <p><h:inputText value="#{newProduct.unitPrice}"></h:inputText></p>
+    <h3>Quantity in Stock:</h3>
+    <p><h:inputText value="#{newProduct.qunatity}"></h:inputText></p>
+    <h3>category:</h3>
+    <p><h:selectOneMenu value="#{newProduct.category}" converter="omnifaces.SelectItemsConverter">
+        <f:selectItem itemLabel="-- Select a Catgory --" itemValue=""/>
+            <f:selectItems value="#{newProduct.categoryList}" var="category" itemValue="#{category}" itemLabel="#{category.description}"/>
+    </h:selectOneMenu></p>
+
+    <p> <h:commandButton value="Store This Item"  action="#{newProduct.addNewProduct}"/></p>
+</h:form>
+</body>
+</html>

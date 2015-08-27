@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+    http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+    <managed-bean>
+        <managed-bean-name>NewCustomer</managed-bean-name>
+        <managed-bean-class>com.shop.managedbeans.NewCustomer</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>Login</managed-bean-name>
+        <managed-bean-class>com.shop.managedbeans.Login</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+
+    <managed-bean>
+        <managed-bean-name>newProductManagedBean</managed-bean-name>
+        <managed-bean-class>com.shop.managedbeans.NewProductManagedBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>ViewProductsManagedBean</managed-bean-name>
+        <managed-bean-class>com.shop.managedbeans.ViewProductsManagedBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+
+    <managed-bean>
+        <managed-bean-name>MyCart</managed-bean-name>
+        <managed-bean-class>com.shop.managedbeans.ShoppingCartManagedBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+
+    <managed-bean>
+        <managed-bean-name>ViewCartManagedBean</managed-bean-name>
+        <managed-bean-class>com.shop.managedbeans.ViewCartManagedBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+
+
+
+    <navigation-rule>
+    <from-view-id>/welcome.xhtml</from-view-id>
+    <navigation-case>
+        <from-outcome>Register</from-outcome>
+        <to-view-id>/Register.xhtml</to-view-id>
+    </navigation-case>
+    </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>/welcome.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>Admin</from-outcome>
+            <to-view-id>/Admin.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    <navigation-rule>
+        <from-view-id>/Admin.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>NewProduct</from-outcome>
+            <to-view-id>/AddNewProduct.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>/ProductCatalogue.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>Product</from-outcome>
+            <to-view-id>/Products.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>/welcome.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>Login</from-outcome>
+            <to-view-id>/Login.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    <navigation-rule>
+        <from-view-id>/Products.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>CatalogueMain</from-outcome>
+            <to-view-id>/ProductCatalogue.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+        <from-outcome>ViewCart</from-outcome>
+        <to-view-id>/ViewCart.xhtml</to-view-id>
+    </navigation-case>
+    </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>/Register.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>success</from-outcome>
+            <to-view-id>/Login.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>/Login.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>verified</from-outcome>
+            <to-view-id>/ProductCatalogue.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>register</from-outcome>
+            <to-view-id>/Register.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>/Products.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>cart</from-outcome>
+            <to-view-id>/ViewCart.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    <navigation-rule>
+        <from-view-id>/ViewCart.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>Products</from-outcome>
+            <to-view-id>/Products.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>/ViewCart.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>ViewCart</from-outcome>
+            <to-view-id>/ViewCart.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>Checkout</from-outcome>
+            <to-view-id>/Checkout.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+</faces-config>

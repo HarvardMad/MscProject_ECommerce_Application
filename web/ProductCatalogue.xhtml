@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+<style type="text/css">
+    #page{
+
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        background: #ccc
+    }
+
+    #page #upperPadding{
+
+        height: 15%;
+        margin-bottom: -100px;
+    }
+
+    #page #container{
+
+        width: 900px;
+        height: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #page #container .tile{
+
+        background: #fff;
+        width: 194px;
+        height: 157px;
+        margin: 5px;
+        float: left;
+    }
+
+    #page #container .tile:hover{
+
+
+        background: #D8D8D8;
+
+    }
+</style>
+</h:head>
+
+<h:body>
+    <h:form id="form">
+    <p:dataGrid value="#{newProduct.categoryList}" var="category" columns="3" layout="grid"
+                rows="12" paginator="true" id="cars"
+                paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+                rowsPerPageTemplate="6,12,16" style="order-table-odd-row" styleClass="order-table-even-row">
+
+        <f:facet name="header">
+            Shop
+        </f:facet>
+
+        <p:panel header="#{category.description}" style="text-align:center" styleClass="order-table-even-row">
+
+            <h:panelGrid columns="2" style="width:60%">
+                <div class="tile"> <p:graphicImage  name="images/#{category.description}.jpg" /></div>
+
+                <p:outputPanel style="float:left;">
+                    <h:panelGrid columns="2" cellpadding="5" var="category" style="float:left;">
+                        <h:outputText value="Category Id:"  style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;  font-weight: 600; float:left;" />
+                        <h:outputText value="#{category.categoryid}"  style="font-family: Verdana, Helvetica, sans-serif;font-size: 12px;  font-weight: 600; float:left;"/>
+
+                        <h:outputText value="Description:"  style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;  font-weight: 600; float:left;"/>
+                        <h:outputText value="#{category.description}"  style="font-family: Verdana, Helvetica, sans-serif;font-size: 12px;  font-weight: 600; float:left;"/>
+                        <h:commandButton  id="button" value="Explore" action="#{ViewProductsManagedBean.setUpCategoryToGetProductsList(category)}" style="float:left"/>
+                    </h:panelGrid>
+                </p:outputPanel>
+            </h:panelGrid>
+        </p:panel>
+
+    </p:dataGrid>
+</h:form>
+</h:body>
+</html>

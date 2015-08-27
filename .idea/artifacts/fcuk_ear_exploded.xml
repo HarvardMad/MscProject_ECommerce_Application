@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="fcuk:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/fcuk_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="fcuk/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="ejb.jar">
+        <element id="artifact" artifact-name="fcuk:ejb exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+        <element id="library" level="project" name="OpenFaces-3.0" />
+        <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        <element id="library" level="project" name="javax.faces-2.3.0-m03" />
+        <element id="library" level="project" name="PrimeFaces-5.2" />
+      </element>
+    </root>
+  </artifact>
+</component>

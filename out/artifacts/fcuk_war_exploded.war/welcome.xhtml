@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <style type="text/css">
+        #mainArea{
+
+            position: fixed;
+            top: 100px;
+            bottom: 500px;
+            left: 0px;
+            right: 0px;
+            background: #ccc;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #page #upperPadding{
+
+            height: 50%;
+            margin-bottom: -250px;
+        }
+
+        #page #container{
+
+
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        #page #container .tile{
+
+            background: #fff;
+            width: 150px;
+            height: 150px;
+            margin: 5px;
+            float: left;
+        }
+
+        #page #container .tile:hover{
+
+
+            background: #F9F9F9;
+
+        }
+        #side_menu {
+            border: 2px solid black;
+            padding: 10px 20px;
+            background:#99CCFF;
+            width: 170px;
+            border-radius: 25px;
+            font-family:Times New Roman;
+            font-size: 15px;"
+        font-color:black;
+        }
+        p {
+            border: 2px solid black;
+            width: 210px;
+            background: #99CCFF;
+            border-radius: 25px;
+            font-family: "Times New Roman";
+            font-size: 20px;
+        }
+        .main-container{
+            width:70%;
+            height:86px;
+        }
+        .left-section {
+            float: left;
+            background-color:#99CCFF;
+            height:86px;
+            width:80%;
+            font-family:Times New Roman;
+            font-size: 20px;"
+        }
+
+        .right-section {
+
+            float: right;
+            background-color:#99CCFF;
+            width:20%;
+            height:86px;
+            font-family:Times New Roman;
+            font-size: 15px;"
+        }
+        .categories-bar {
+
+            border: 2px solid black;
+            width: 100px;
+            background: #99CCFF;
+            border-radius: 25px;
+            font-family: "Times New Roman";
+            font-size: 20px;
+        }
+    </style>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=UTF-8" />
+
+
+    <title>Woodys Mazda</title>
+</h:head>
+<h:body >
+    <div class="main-container">
+        <div class="left-section"><h2>Welcome to Woodys Mazda</h2></div>
+        <div class="right-section"  >
+            <b>Login Details</b>
+            <h:form>
+                <h:link value="New Account" outcome="Register" /><br />
+                <h:link value="Click here to Login" outcome="Login" /><br />
+                <h:link value="Site Admin: Click here to go to admin menu" outcome="Admin" /><br />
+                <h:link value="Like us on Facebook" outcome="Admin" />
+                <h:graphicImage library="images" name="like.gif"></h:graphicImage><br />
+            </h:form>
+        </div>
+    </div>
+
+
+    <div id="left_sidebar">
+        <p><b>Browse MX5 Parts</b></p>
+        <ul id="side_menu">
+            <li><a href="#" title="Accessories &amp; Trim">Accessories &amp; Trim</a></li>
+            <li><a href="#" title="Alarms and Audio">Alarms and Audio</a></li>
+            <li><a href="#" title="Brakes">Brakes</a></li>
+            <li><a href="#" title="Cooling &amp; Heating">Cooling &amp; Heating</a></li>
+            <li><a href="#" title="Electrical ">Electrical </a></li>
+            <li><a href="#" title="Engine Components">Engine Components</a></li>
+            <li><a href="#" title="Exhausts">Exhausts</a></li>
+            <li><a href="#" title="Exterior">Exterior</a></li>
+            <li><a href="#" title="Hoods and Hardtops">Hoods and Hardtops</a></li>
+            <li><a href="#" title="Interior">Interior</a></li>
+            <li><a href="#" title="Leather Trim">Leather Trim</a></li>
+            <li><a href="#" title="Lighting">Lighting</a></li>
+            <li><a href="#" title="Miscellaneous">Miscellaneous</a></li>
+            <li><a href="#" title="Performance">Performance</a></li>
+            <li><a href="#" title="Service Items">Service Items</a></li>
+            <li><a href="#" title="Suspension &amp; Steering">Suspension &amp; Steering</a></li>
+            <li><a href="#" title="Transmission &amp; Clutch">Transmission &amp; Clutch</a></li>
+            <li><a href="#" title="Used or Reconditioned">Used or Reconditioned</a></li>
+            <li><a href="#" title="Wheels and Tyres">Wheels and Tyres</a></li>
+            <li><a href="#" title="Workshop Services">Workshop Services</a></li>
+        </ul>
+
+        <div>
+
+            <div id="upperPadding"></div>
+
+            <div id="container">
+
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+        </div>
+
+    </div>
+    <div id="footer">
+        Copyright © Lalin Pethiyagoda
+    </div>
+</h:body>
+</html>

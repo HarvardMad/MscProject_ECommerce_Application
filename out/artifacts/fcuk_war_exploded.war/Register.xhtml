@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:p="http://primefaces.org/ui">
+    
+    <h:head>
+        <meta http-equiv="Content-Type" 
+              content="text/html; charset=UTF-8" />
+
+        <title>Add Your details</title>
+    </h:head>
+<body>
+<h:form name="register">
+    <p:dialog id="dialog" header="Register" footer="Woodys Mazda" width="600" widgetVar="dlg" visible="true" closable="false" showEffect="clip" draggable="false" resizable="false" style="box-shadow: 7px 10px 5px #303030;">
+        <p:panelGrid columns="2" style="margin: 0 auto">
+            <h:outputText value="Name:"/>
+            <h:inputText value="#{newCustomer.name}" id="name"/>
+            <h:outputText value="Telephone:"/>
+            <h:inputText value="#{newCustomer.telephone}" id="telephone"/>
+            <h:outputText value="Mobile Phone:"/>
+            <h:inputText value="#{newCustomer.mobilePhone}" id="mobilePhone"/>
+            <p:outputLabel for="german" value="DOB:" />
+            <p:calendar id="german" value="#{newCustomer.dob}" locale="en" navigator="true" pattern="yyyy-MMM-dd" />
+            <h:outputText value="Email:"/>
+            <h:inputText value="#{newCustomer.email}" id="email"/>
+            <h:outputText value="password:"/>
+            <p:password id="password" value="#{newCustomer.password}" feedback="true" />
+        </p:panelGrid>
+
+        <p:commandButton  id="button" value="Send Data" action="#{newCustomer.addNewCustomer}" style="float:right"/>
+    </p:dialog>
+</h:form>
+</body> 
+</html>
