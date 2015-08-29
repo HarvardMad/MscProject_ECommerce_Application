@@ -11,9 +11,8 @@ import javax.ejb.*;
 import javax.faces.bean.SessionScoped;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.PersistenceContextType;
 import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Locale;
 import java.util.concurrent.CopyOnWriteArrayList;
 @Stateful
@@ -21,15 +20,16 @@ import java.util.concurrent.CopyOnWriteArrayList;
 @Remote(ShoppingCart.class)
 @SessionScoped
 public class ShoppingCartBean implements ShoppingCartLocal, ShoppingCart {
-    @PersistenceContext(unitName ="Shop")
+    @PersistenceContext(unitName ="Shop" , type= PersistenceContextType.EXTENDED)
     private EntityManager cartEntityManager;
     @EJB
     private CustomerManager customerManagerBean;
     private  CustomerEntity logginInCust;
     private CopyOnWriteArrayList<Orderitem> cartItems = new CopyOnWriteArrayList<>();
     private Order newOrder= new Order();
-    List<Order> orders=new ArrayList<>();
-    private int customerID =0;
+
+    private Integer custID;
+
     public ShoppingCartBean(){}
 
     public void setCartItems(CopyOnWriteArrayList<Orderitem> cartItems) {
@@ -40,15 +40,16 @@ public class ShoppingCartBean implements ShoppingCartLocal, ShoppingCart {
         return this.newOrder;
     }
 //******************************************************************************************//
+@TransactionAttribute(TransactionAttributeType.NOT_SUPPORTED)
     public void assignCartToOrder(CustomerEntity cust){
-        customerID=cust.getCustomerId();
-        logginInCust = cartEntityManager.find(CustomerEntity.class, customerID);
-        //logginInCust.getOrders().add(newOrder);
-        //newOrder.setCustomer(logginInCust);
-
+        int customerID=cust.getCustomerId();
+        custID = customerID;
+        CustomerEntity imLoggedInToShop = cartEntityManager.find(CustomerEntity.class, customerID);
+        logginInCust=imLoggedInToShop;
     }
 //*******************************************************************************************//
     @Override
+    @TransactionAttribute(TransactionAttributeType.NOT_SUPPORTED)
     public boolean addCartItem(ProductEntity product, int quantityPurchased){
         com.shop.entity.Orderitem basketItem=new Orderitem();
 
@@ -67,17 +68,15 @@ public class ShoppingCartBean implements ShoppingCartLocal, ShoppingCart {
         basketItem.setUnitprice(product.getUnitprice());
         basketItem.setQuantitypurchased(quantityPurchased);
         basketItem.setProduct(product);
-        //newOrder.setCustomer(logginInCust);
-        System.out.println("Inside  addCartItems " + newOrder.toString());
-        //basketItem.setOrder(newOrder);
+        basketItem.setOrder(newOrder);
 
-            subTotal = quantityPurchased * basketItem.getUnitprice();
-            Double currencyAmount = new Double(subTotal);
-            NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance(currentLocale);
-            currencyFormatter.format(currencyAmount);
-            basketItem.setSubtotal(currencyAmount);
-            cartItems.add(basketItem);
-            return true;
+        subTotal = quantityPurchased * basketItem.getUnitprice();
+        Double currencyAmount = new Double(subTotal);
+        NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance(currentLocale);
+        currencyFormatter.format(currencyAmount);
+        basketItem.setSubtotal(currencyAmount);
+        cartItems.add(basketItem);
+        return true;
     }
     public String removeItemFromCart(String itemCode){
         for(Orderitem ord:cartItems){
@@ -118,11 +117,12 @@ public class ShoppingCartBean implements ShoppingCartLocal, ShoppingCart {
         stopSession();
     }
     @Override
-    public void persistCartItems() {
-
-        //getNewOrder().setOrderitems(this.cartItems);
-        //cartEntityManager.persist(newOrder);
-        //cartEntityManager.flush();
+    public void persistCartItems(CustomerEntity cust) {
+        logginInCust = cartEntityManager.find(CustomerEntity.class, cust.getCustomerId());
+        newOrder.setCustomer(logginInCust);
+        getNewOrder().setOrderitems(this.cartItems);
+        cartEntityManager.persist(newOrder);
+        cartEntityManager.flush();
     }
     @Remove
     public void stopSession(){

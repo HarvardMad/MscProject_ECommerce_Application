@@ -33,8 +33,10 @@ public class Login {
 
     public String verifyCustomer(){
         String result ;
+
         result= customerManager.verifyCustomer(this.email, this.password);
         return result;
     }
+
 
 }

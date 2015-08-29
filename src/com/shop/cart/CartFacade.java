@@ -28,6 +28,7 @@ public class CartFacade {
         this.cart = cart;
     }
     List<Orderitem> cart = new ArrayList<>();
+    CustomerEntity c;
 
     /**
      * A client class can access the Stateful Session Bean using CDI via the @EJB annotation.
@@ -43,12 +44,11 @@ public class CartFacade {
     @EJB
     ShoppingCart cartBean;
 
-   // Order newOrder = new Order();
-
     public CartFacade() {
 
     }
     public void assignCustomerToCart(CustomerEntity LoggedInCustomer){
+        c=LoggedInCustomer;
         cartBean.assignCartToOrder(LoggedInCustomer);
     }
 
@@ -70,8 +70,9 @@ public String removeItemFromCart(String itemCode){
      return cartBean.removeItemFromCart(itemCode);
 }
 
-    public void persistOrder(){
-        //cartBean.persistCartItems();
+    public void persistOrder(CustomerEntity c){
+        System.out.println("Inside persist" + c.getName());
+        cartBean.persistCartItems(c);
 
     }
 

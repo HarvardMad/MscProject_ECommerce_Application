@@ -6,6 +6,7 @@ import javax.ejb.Local;
 public interface CustomerManagerLocal {
 	 void persistNewCustomer(Object newCustomer);
 	 String verifyCustomer(String email, String password);
+	CustomerEntity getCustomerFindbyEmailPassword(String email, String password);
 
 	CustomerEntity getVerifiedCustomer();
 }

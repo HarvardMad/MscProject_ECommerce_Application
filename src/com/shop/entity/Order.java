@@ -25,7 +25,7 @@ public class Order implements Serializable {
     private Date orderdate;
 
    @ManyToOne(cascade=CascadeType.ALL)
-    //@JoinColumn(name="customerid")
+    @JoinColumn(name="customerid")
     private CustomerEntity customer;
 
     //bi-directional many-to-one association to Orderitem

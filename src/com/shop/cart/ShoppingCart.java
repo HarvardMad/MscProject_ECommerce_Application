@@ -18,7 +18,7 @@ import java.util.List;
 @Remote
 public interface ShoppingCart {
     List<Orderitem> viewCartItems();
-    void persistCartItems();
+    void persistCartItems(CustomerEntity c);
     public List<Orderitem> getCartItems();
     public boolean addCartItem(ProductEntity product, int quantityPurchased);
     void removeCartItem(int itemCode);

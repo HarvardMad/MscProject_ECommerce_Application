@@ -20,6 +20,7 @@ package com.shop.managedbeans;
  */
 
 import com.shop.entity.Category;
+import com.shop.entity.CustomerEntity;
 import com.shop.entity.Orderitem;
 import com.shop.entity.ProductEntity;
 
@@ -60,6 +61,9 @@ public class ViewProductsManagedBean {
 
     @EJB
     com.shop.cart.CartFacade cartFunctions;
+
+    @EJB
+    com.shop.entity.CustomerManagerLocal customerManagerBean;
 
     public ViewProductsManagedBean() {
 
@@ -234,8 +238,9 @@ public class ViewProductsManagedBean {
         this.productsAndTheirQuanitities = productsAndTheirQuanitities;
     }
 
-    public void persistOrder(){
-        cartFunctions.persistOrder();
+    public void persistOrder(String email, String password){
+        CustomerEntity cust =customerManagerBean.getCustomerFindbyEmailPassword(email, password);
+        cartFunctions.persistOrder(cust);
 
     }
 

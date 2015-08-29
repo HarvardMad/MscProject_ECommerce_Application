@@ -15,7 +15,7 @@ import java.util.List;
 @Local
 public interface ShoppingCartLocal {
     List<Orderitem> viewCartItems();
-    void persistCartItems();
+    void persistCartItems(CustomerEntity c);
     public List<Orderitem> getCartItems();
     public boolean addCartItem(ProductEntity product, int quantityPurchased);
     void removeCartItem(int itemCode);

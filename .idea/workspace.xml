@@ -11,7 +11,38 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4702520-8c87-43f4-900a-1cace95542c3" name="Default" comment="" />
+    <list default="true" id="a4702520-8c87-43f4-900a-1cace95542c3" name="Default" comment="commit 2 29/08/2015">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/cart/CartFacade.class" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/cart/CartFacade.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/cart/CartFacade.class" afterPath="$PROJECT_DIR$/out/production/fcuk/com/shop/cart/CartFacade.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/entity/CustomerManager.class" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/entity/CustomerManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/entity/CustomerManager.class" afterPath="$PROJECT_DIR$/out/production/fcuk/com/shop/entity/CustomerManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/entity/CustomerManagerLocal.class" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/entity/CustomerManagerLocal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/entity/CustomerManagerLocal.class" afterPath="$PROJECT_DIR$/out/production/fcuk/com/shop/entity/CustomerManagerLocal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/managedbeans/Login.class" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/managedbeans/Login.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/managedbeans/Login.class" afterPath="$PROJECT_DIR$/out/production/fcuk/com/shop/managedbeans/Login.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/entity/Order.class" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/entity/Order.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/entity/Order.class" afterPath="$PROJECT_DIR$/out/production/fcuk/com/shop/entity/Order.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/cart/ShoppingCart.class" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/cart/ShoppingCart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/cart/ShoppingCart.class" afterPath="$PROJECT_DIR$/out/production/fcuk/com/shop/cart/ShoppingCart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/cart/ShoppingCartBean.class" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/cart/ShoppingCartBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/cart/ShoppingCartBean.class" afterPath="$PROJECT_DIR$/out/production/fcuk/com/shop/cart/ShoppingCartBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/cart/ShoppingCartLocal.class" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/cart/ShoppingCartLocal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/cart/ShoppingCartLocal.class" afterPath="$PROJECT_DIR$/out/production/fcuk/com/shop/cart/ShoppingCartLocal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/managedbeans/ViewProductsManagedBean.class" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/managedbeans/ViewProductsManagedBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/managedbeans/ViewProductsManagedBean.class" afterPath="$PROJECT_DIR$/out/production/fcuk/com/shop/managedbeans/ViewProductsManagedBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shop/cart/CartFacade.java" afterPath="$PROJECT_DIR$/src/com/shop/cart/CartFacade.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shop/entity/CustomerManager.java" afterPath="$PROJECT_DIR$/src/com/shop/entity/CustomerManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shop/entity/CustomerManagerLocal.java" afterPath="$PROJECT_DIR$/src/com/shop/entity/CustomerManagerLocal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shop/managedbeans/Login.java" afterPath="$PROJECT_DIR$/src/com/shop/managedbeans/Login.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shop/entity/Order.java" afterPath="$PROJECT_DIR$/src/com/shop/entity/Order.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shop/cart/ShoppingCart.java" afterPath="$PROJECT_DIR$/src/com/shop/cart/ShoppingCart.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shop/cart/ShoppingCartBean.java" afterPath="$PROJECT_DIR$/src/com/shop/cart/ShoppingCartBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shop/cart/ShoppingCartLocal.java" afterPath="$PROJECT_DIR$/src/com/shop/cart/ShoppingCartLocal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/ViewCart.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/ViewCart.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ViewCart.xhtml" afterPath="$PROJECT_DIR$/web/ViewCart.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/shop/managedbeans/ViewProductsManagedBean.java" afterPath="$PROJECT_DIR$/src/com/shop/managedbeans/ViewProductsManagedBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="fcuk.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -72,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/shop/cart/CartFacade.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,36 +111,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingCartBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/shop/cart/ShoppingCartBean.java">
+      <file leaf-file-name="ViewProductsManagedBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shop/managedbeans/ViewProductsManagedBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="124" column="20" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerManagerBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/shop/entity/CustomerManagerBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <caret line="239" column="0" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerEntity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/shop/entity/CustomerEntity.java">
+      <file leaf-file-name="ViewCart.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/ViewCart.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7356077">
-              <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+            <state vertical-scroll-proportion="-20.916666">
+              <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoppingCartBean.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shop/cart/ShoppingCartBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.35280898">
+              <caret line="122" column="52" selection-start-line="122" selection-start-column="52" selection-end-line="122" selection-end-column="52" />
               <folding>
-                <element signature="e#1874#1875#0" expanded="true" />
-                <element signature="e#1917#1918#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1132#1133#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,6 +156,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Lalin Pethiyagoda" />
+        <option value="Lalin P" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -138,8 +177,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/shop/entity/OrderitemEntity.java" />
-        <option value="$PROJECT_DIR$/src/com/shop/entity/CustomerManager.java" />
-        <option value="$PROJECT_DIR$/src/com/shop/entity/CustomerManagerLocal.java" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="dbtable:/d80c3929/9a50d370-3065-4c24-951c-e19f4d078172/Shop.public.customer" />
         <option value="$PROJECT_DIR$/src/com/shop/entity/tblCustomerEntity.java" />
@@ -174,20 +211,22 @@
         <option value="$PROJECT_DIR$/web/Products.xhtml" />
         <option value="$PROJECT_DIR$/web/Checkout.xhtml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
-        <option value="$PROJECT_DIR$/web/ViewCart.xhtml" />
         <option value="dbtable:/d80c3929/9a50d370-3065-4c24-951c-e19f4d078172/Shop.public.orderitem_orderitemid_seq" />
-        <option value="$PROJECT_DIR$/src/com/shop/managedbeans/Login.java" />
         <option value="$PROJECT_DIR$/src/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/com/shop/managedbeans/ViewProductsManagedBean.java" />
         <option value="$PROJECT_DIR$/src/com/shop/entity/Orderitem.java" />
         <option value="$PROJECT_DIR$/src/com/shop/entity/CustomerManagerBean.java" />
+        <option value="dbtable:/d80c3929/9a50d370-3065-4c24-951c-e19f4d078172/Shop.public.tblorder" />
+        <option value="$PROJECT_DIR$/src/com/shop/entity/CustomerEntity.java" />
+        <option value="$PROJECT_DIR$/src/com/shop/entity/Order.java" />
         <option value="$PROJECT_DIR$/src/com/shop/cart/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/com/shop/cart/ShoppingCartLocal.java" />
-        <option value="dbtable:/d80c3929/9a50d370-3065-4c24-951c-e19f4d078172/Shop.public.tblorder" />
-        <option value="$PROJECT_DIR$/src/com/shop/cart/ShoppingCartBean.java" />
-        <option value="$PROJECT_DIR$/src/com/shop/entity/Order.java" />
+        <option value="$PROJECT_DIR$/src/com/shop/managedbeans/Login.java" />
+        <option value="$PROJECT_DIR$/web/ViewCart.xhtml" />
         <option value="$PROJECT_DIR$/src/com/shop/cart/CartFacade.java" />
-        <option value="$PROJECT_DIR$/src/com/shop/entity/CustomerEntity.java" />
+        <option value="$PROJECT_DIR$/src/com/shop/managedbeans/ViewProductsManagedBean.java" />
+        <option value="$PROJECT_DIR$/src/com/shop/entity/CustomerManagerLocal.java" />
+        <option value="$PROJECT_DIR$/src/com/shop/entity/CustomerManager.java" />
+        <option value="$PROJECT_DIR$/src/com/shop/cart/ShoppingCartBean.java" />
       </list>
     </option>
   </component>
@@ -231,7 +270,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -269,6 +308,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fcuk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fcuk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fcuk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -608,6 +661,9 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Unknown" factoryName="Unknown">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -728,11 +784,19 @@
       <workItem from="1439485521829" duration="1247000" />
       <workItem from="1440673526117" duration="1169000" />
       <workItem from="1440683300811" duration="1615000" />
+      <workItem from="1440696442257" duration="12433000" />
     </task>
+    <task id="LOCAL-00001" summary="VCS file?">
+      <created>1440696532243</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1440696532243</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276266000" />
+    <option name="totallyTimeSpent" value="288699000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -749,18 +813,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.48707592" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328125" sideWeight="0.48707592" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21875" sideWeight="0.52584815" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32670453" sideWeight="0.49030694" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2940341" sideWeight="0.47415185" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41761363" sideWeight="0.47415185" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26817447" sideWeight="0.37018424" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11631664" sideWeight="0.59090906" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25121164" sideWeight="0.59090906" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26817447" sideWeight="0.37018424" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19547658" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26767275" sideWeight="0.37855947" order="2" side_tool="true" content_ui="tabs" />
@@ -828,6 +892,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="VCS file?" />
+    <MESSAGE value="commit 2 29/08/2015" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 2 29/08/2015" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -850,13 +919,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fcuk.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/libraries/javax_faces_2_3_0_m03.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -981,24 +1043,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shop/entity/CustomerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24150269">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shop/managedbeans/NewProductManagedBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.53667265">
           <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Login.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1016,22 +1064,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/ViewCart.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.708333">
-          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/d80c3929/9a50d370-3065-4c24-951c-e19f4d078172/Shop.public.category">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1043,14 +1084,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/d80c3929/9a50d370-3065-4c24-951c-e19f4d078172/Shop.public.orderitem_orderitemid_seq">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.0">
           <caret line="2" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1069,14 +1110,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/d80c3929/9a50d370-3065-4c24-951c-e19f4d078172/Shop.public.order">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1088,26 +1129,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+      <provider selected="true" editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="136" column="22" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="22" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16100179">
           <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shop/managedbeans/NewCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18783543">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1119,104 +1153,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shop/managedbeans/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shop/cart/ShoppingCartLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18789808">
-          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shop/cart/ShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24203822">
-          <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/d80c3929/9a50d370-3065-4c24-951c-e19f4d078172/Shop.public.tblproduct">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shop/managedbeans/ViewProductsManagedBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0273972">
-          <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/d80c3929/9a50d370-3065-4c24-951c-e19f4d078172/Shop.public.orderitem">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/d80c3929/9a50d370-3065-4c24-951c-e19f4d078172/Shop.public.tblcustomer">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/d80c3929/9a50d370-3065-4c24-951c-e19f4d078172/Shop.public.tblorder">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shop/cart/CartFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shop/cart/ShoppingCartBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="124" column="20" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1225,29 +1161,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shop/entity/CustomerManagerBean.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shop/entity/CustomerEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42307693">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d80c3929/9a50d370-3065-4c24-951c-e19f4d078172/Shop.public.tblproduct">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d80c3929/9a50d370-3065-4c24-951c-e19f4d078172/Shop.public.tblcustomer">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shop/cart/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shop/cart/ShoppingCartLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shop/managedbeans/NewCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Login.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6746204">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shop/managedbeans/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21649484">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shop/entity/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31982943">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state vertical-scroll-proportion="-1.1958762">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shop/entity/CustomerEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shop/entity/CustomerManagerBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7356077">
-          <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="56" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shop/entity/CustomerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shop/entity/CustomerManagerLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24742268">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shop/cart/CartFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
-            <element signature="e#1874#1875#0" expanded="true" />
-            <element signature="e#1917#1918#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ViewCart.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.916666">
+          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shop/managedbeans/ViewProductsManagedBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="239" column="0" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d80c3929/9a50d370-3065-4c24-951c-e19f4d078172/Shop.public.orderitem">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d80c3929/9a50d370-3065-4c24-951c-e19f4d078172/Shop.public.tblorder">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shop/cart/ShoppingCartBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35280898">
+          <caret line="122" column="52" selection-start-line="122" selection-start-column="52" selection-end-line="122" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -7,7 +7,8 @@ import javax.ejb.Remote;
 @Remote
 public interface CustomerManager {
 	  void persistNewCustomer(Object newCustomer);
-	 String verifyCustomer(String email, String password);
+	  String verifyCustomer(String email, String password);
+	  CustomerEntity getCustomerFindbyEmailPassword(String email, String password);
 
-	CustomerEntity getVerifiedCustomer();
+	  CustomerEntity getVerifiedCustomer();
 }
