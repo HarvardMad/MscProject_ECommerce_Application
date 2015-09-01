@@ -57,9 +57,68 @@ public class CustomerEntity implements Serializable {
     @Column(name="password")
     private String myPassword;
 
+    @Basic(fetch=FetchType.EAGER)
+    @Column(name="houseno")
+    private String houseNo;
+
+    @Basic(fetch=FetchType.EAGER)
+    @Column(name="street")
+    private String street;
+
+    @Basic(fetch=FetchType.EAGER)
+    @Column(name="town")
+    private String town;
+
+    @Basic(fetch=FetchType.EAGER)
+    @Column(name="postcode")
+    private String postCode;
+
+    @Basic(fetch=FetchType.EAGER)
+    @Column(name="county")
+    private String county;
+
     @OneToMany(mappedBy="customer", cascade={CascadeType.ALL})
     List<Order> order;
 
+    public String getHouseNo() {
+        return houseNo;
+    }
+
+    public void setHouseNo(String houseNo) {
+        this.houseNo = houseNo;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public String getTown() {
+        return town;
+    }
+
+    public void setTown(String town) {
+        this.town = town;
+    }
+
+    public String getPostCode() {
+        return postCode;
+    }
+
+    public void setPostCode(String postCode) {
+        this.postCode = postCode;
+    }
+
+    public String getCounty() {
+        return county;
+    }
+
+    public void setCounty(String county) {
+        this.county = county;
+    }
 
     private static final long serialVersionUID = 1L;
 

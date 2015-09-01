@@ -4,8 +4,191 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
-      xmlns:f="http://xmlns.jcp.org/jsf/core">
-<f:view>
-    <h:outputLabel value="Hello, world"/>
-</f:view>
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+    <script type="text/javascript" ></script>
+    <style type="text/css">
+        .order-table {
+            border-collapse: collapse;
+        }
+        .order-table-header {
+            text-align: center;
+            background: none repeat scroll 0 0 #0099CC;
+            border-bottom: 1px solid #BBBBBB;
+        }
+        .order-table-odd-row {
+            text-align: center;
+            background: none repeat scroll 0 0 #FFFFFF;
+            border-top: 1px solid #BBBBBB;
+            padding: 15px;
+        }
+        .order-table-even-row {
+            text-align: center;
+            background: none repeat scroll 0 0 #CCFFFF;
+            border-top: 1px solid #BBBBBB;
+            padding: 15px;
+        }
+        .alignmentLeft {
+            text-align : left;
+            border: 1px solid black;
+            background-color: orange;
+        }
+        .alignmentRight {
+            text-align : right;
+            border: 1px solid black;
+            background-color: lime;
+        }
+    </style>
+
+</h:head>
+<h:body>
+<h:outputText value="Check Out"
+              style="font-family: Verdana, Helvetica, sans-serif;font-size: 18px;  font-weight: 900;" />
+<h:form name="ViewProductsManagedBean">
+
+    <p:dataTable id="cartTable" var="cartList"
+                 value="#{ViewProductsManagedBean.cart}" styleClass="order-table"
+                 headerClass="order-table-header"
+                 rowClasses="order-table-odd-row,order-table-even-row">
+        <p:column>
+            <f:facet name="header">
+                <h:outputText value="Item Code"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+            </f:facet>
+            <h:outputText value="#{cartList.itemcode}"
+                          style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;" />
+        </p:column>
+        <p:column>
+            <f:facet name="header">
+                <h:outputText value="Description"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+            </f:facet>
+            <h:outputText value="#{cartList.itemdescription}"
+                          style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;" />
+        </p:column>
+        <p:column>
+            <f:facet name="header">
+                <h:outputText value="Quanitity"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+            </f:facet>
+            <h:outputText value="#{cartList.quantitypurchased}"
+                          style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;" />
+        </p:column>
+        <p:column>
+            <f:facet name="header">
+                <h:outputText value="Unit Price"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+            </f:facet>
+            <h:outputText value="#{cartList.unitprice}"
+                          style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;">
+                <f:convertNumber currencySymbol="£" groupingUsed="true"
+                                 maxFractionDigits="2" type="currency" />
+            </h:outputText>
+        </p:column>
+        <p:column>
+            <f:facet name="header">
+                <h:outputText value="Sub Total"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+            </f:facet>
+            <h:outputText value="#{cartList.subtotal}"
+                          style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;"
+                          converter="javax.faces.BigDecimal">
+                <f:convertNumber currencySymbol="£" groupingUsed="true"
+                                 maxFractionDigits="2" type="currency" />
+            </h:outputText>
+
+        </p:column>
+
+        <f:facet name="footer">
+            <h:outputText value="Grand Total "
+                          style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+            <h:outputText value="#{ViewProductsManagedBean.cartTotal}"
+                          style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;"
+                          converter="javax.faces.BigDecimal" float="right">
+                <f:convertNumber currencySymbol="£" groupingUsed="true"
+                                 maxFractionDigits="2" type="currency" />
+            </h:outputText>
+        </f:facet>
+    </p:dataTable>
+</h:form>
+    <p:spacer width="100" height="100" />
+
+<h:form>
+    <p:dataTable id="postage" var="totalCost"
+                 value="#{ViewProductsManagedBean.cartTotal}" styleClass="order-table"
+                 headerClass="order-table-header"
+                 rowClasses="order-table-odd-row,order-table-even-row">
+        <p:column>
+        <f:facet name="header">
+            <h:outputText value="Postage and Packing"
+                          style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+        </f:facet>
+        </p:column>
+        <p:column>
+        <h:outputText value="1st class "
+                      style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+        <h:outputText value="#{totalCost * 0.40}"
+                      style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;"
+                      converter="javax.faces.BigDecimal" float="right">
+            <f:convertNumber currencySymbol="£" groupingUsed="true"
+                             maxFractionDigits="2" type="currency" />
+        </h:outputText>
+            <p:link  value=" Select ">
+                <f:param name="post" value="#{totalCost * 0.40}" />
+            </p:link>
+        </p:column>
+
+        <p:column>
+        <h:outputText value="2nd class "
+                      style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+        <h:outputText value="#{totalCost * 0.20}"
+                      style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;"
+                      converter="javax.faces.BigDecimal" float="right">
+            <f:convertNumber currencySymbol="£" groupingUsed="true"
+                             maxFractionDigits="2" type="currency" />
+        </h:outputText>
+            <p:link value=" Select ">
+                <f:param name="post" value="#{totalCost * 0.30}" />
+            </p:link>
+        </p:column>
+
+        <p:column>
+        <h:outputText value="Next day special delivery - via courier "
+                      style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+        <h:outputText value="#{totalCost * 0.95}"
+                      style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;"
+                      converter="javax.faces.BigDecimal" float="right">
+            <f:convertNumber currencySymbol="£" groupingUsed="true"
+                             maxFractionDigits="2" type="currency" />
+        </h:outputText>
+            <p:link value=" Select ">
+                <f:param name="post" value="#{totalCost * 0.80}" />
+            </p:link>
+        </p:column>
+    </p:dataTable>
+
+
+    <h3 style="margin-top:0">Basic</h3>
+    <h:panelGrid columns="2" style="margin-bottom:10px" cellpadding="5">
+        <p:outputLabel for="totalPost" value="Post and Packaging:" />
+        <p:selectOneRadio id="totalPost" value="#{ViewProductsManagedBean.cartTotal}">
+            <f:selectItem itemLabel="first class  :#{totalPost*0.4 }" itemValue="#{totalPost*0.4 }"/>
+            <f:selectItem itemLabel="second class : " itemValue="#{totalPost*0.2 }" />
+            <f:selectItem itemLabel="next day courier :" itemValue="#{totalPost*0.9 }" />
+        </p:selectOneRadio>
+    </h:panelGrid>
+</h:form>
+
+
+
+
+
+<h:link value="Pay with Paypal" outcome="Products?faces-redirect=true" style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px; text-align: right;" styleClass="alignmentRight"/>
+
+</h:body>
+
+
 </html>
+

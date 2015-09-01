@@ -163,7 +163,6 @@ public class ViewProductsManagedBean {
             quantity = productsAndTheirQuanitities.get(product);
             System.out.println("selected quantity : " + quantity);
             System.out.println("selected product : " + product.getItemdescription());
-
         }
 
         result = cartFunctions.addItemToCart(product, quantity);

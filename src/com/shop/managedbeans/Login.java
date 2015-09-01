@@ -1,6 +1,7 @@
 package com.shop.managedbeans;
+
 import com.shop.cart.CartFacade;
-import com.shop.entity.*;
+import com.shop.entity.CustomerManagerLocal;
 
 import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
@@ -32,8 +33,9 @@ public class Login {
     }
 
     public String verifyCustomer(){
-        String result ;
 
+
+        String result;
         result= customerManager.verifyCustomer(this.email, this.password);
         return result;
     }

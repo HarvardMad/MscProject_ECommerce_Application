@@ -104,6 +104,10 @@
             <to-view-id>/ProductCatalogue.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
+            <from-outcome>welcome</from-outcome>
+            <to-view-id>/welcome.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
             <from-outcome>register</from-outcome>
             <to-view-id>/Register.xhtml</to-view-id>
         </navigation-case>
@@ -135,5 +139,7 @@
             <to-view-id>/Checkout.xhtml</to-view-id>
         </navigation-case>
     </navigation-rule>
+
+
 
 </faces-config>
