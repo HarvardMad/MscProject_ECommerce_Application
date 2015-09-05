@@ -23,6 +23,18 @@
             <h:inputText value="#{newCustomer.mobilePhone}" id="mobilePhone"/>
             <p:outputLabel for="german" value="DOB:" />
             <p:calendar id="german" value="#{newCustomer.dob}" locale="en" navigator="true" pattern="yyyy-MMM-dd" />
+            <h:outputText value="House no or name:"/>
+            <h:inputText value="#{newCustomer.houseNo}" id="houseno"/>
+            <h:outputText value="Street:"/>
+            <h:inputText id="street" value="#{newCustomer.street}"/>
+            <h:outputText value="Town:"/>
+            <h:inputText value="#{newCustomer.town}" id="town"/>
+            <h:outputText value="County:"/>
+            <h:inputText id="county" value="#{newCustomer.county}"/>
+            <h:outputText value="PostCode:"/>
+            <h:inputText id="postcode" value="#{newCustomer.postCode}"/>
+
+
             <h:outputText value="Email:"/>
             <h:inputText value="#{newCustomer.email}" id="email"/>
             <h:outputText value="password:"/>

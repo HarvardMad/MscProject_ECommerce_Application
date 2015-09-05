@@ -2512,6 +2512,11 @@
       <column name="email" sqlType="varchar" precision="30" scale="0" nullable="true" jdbcType="12"/>
       <column name="telephone" sqlType="varchar" precision="15" scale="0" nullable="true" jdbcType="12"/>
       <column name="mobilephone" sqlType="varchar" precision="13" scale="0" nullable="true" jdbcType="12"/>
+      <column name="houseno" sqlType="varchar" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="street" sqlType="varchar" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="town" sqlType="varchar" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="postcode" sqlType="varchar" precision="16" scale="0" nullable="true" jdbcType="12"/>
+      <column name="county" sqlType="varchar" precision="20" scale="0" nullable="true" jdbcType="12"/>
       <primary-key name="tblCustomer_pkey" columns="customerid"/>
     </table>
     <table name="tblorder" schema="public" catalog="Shop" type="TABLE">

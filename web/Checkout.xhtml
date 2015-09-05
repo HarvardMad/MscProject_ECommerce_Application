@@ -116,74 +116,61 @@
     <p:spacer width="100" height="100" />
 
 <h:form>
+    <h:outputText value="Postage and Packing"
+                  style="font-family: Verdana, Helvetica, sans-serif;font-size: 18px;  font-weight: 900;" />
     <p:dataTable id="postage" var="totalCost"
                  value="#{ViewProductsManagedBean.cartTotal}" styleClass="order-table"
                  headerClass="order-table-header"
                  rowClasses="order-table-odd-row,order-table-even-row">
-        <p:column>
-        <f:facet name="header">
-            <h:outputText value="Postage and Packing"
-                          style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
-        </f:facet>
-        </p:column>
+
         <p:column>
         <h:outputText value="1st class "
                       style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
-        <h:outputText value="#{totalCost * 0.40}"
+        <h:outputText value="${totalCost * 0.04}"
                       style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;"
                       converter="javax.faces.BigDecimal" float="right">
             <f:convertNumber currencySymbol="£" groupingUsed="true"
                              maxFractionDigits="2" type="currency" />
         </h:outputText>
-            <p:link  value=" Select ">
-                <f:param name="post" value="#{totalCost * 0.40}" />
-            </p:link>
+
+            <h:commandButton value="Select this option" action="PayPal?faces-redirect=true"  actionListener="${ViewProductsManagedBean.updateTotal(totalCost*0.40)}">
+                <f:param name="#{ViewProductsManagedBean.postAndPackingCost}" value="${totalCost * 0.04}" />
+            </h:commandButton>
+
+
         </p:column>
 
         <p:column>
         <h:outputText value="2nd class "
                       style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
-        <h:outputText value="#{totalCost * 0.20}"
+        <h:outputText value="#{totalCost * 0.03}"
                       style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;"
                       converter="javax.faces.BigDecimal" float="right">
             <f:convertNumber currencySymbol="£" groupingUsed="true"
                              maxFractionDigits="2" type="currency" />
         </h:outputText>
-            <p:link value=" Select ">
-                <f:param name="post" value="#{totalCost * 0.30}" />
-            </p:link>
+            <h:commandButton value="Select this option " action="PayPal?faces-redirect=true"  actionListener="${ViewProductsManagedBean.updateTotal(totalCost*0.20)}">
+                <f:param name="#{ViewProductsManagedBean.postAndPackingCost}" value="${totalCost * 0.03}" />
+            </h:commandButton>
+
         </p:column>
 
         <p:column>
         <h:outputText value="Next day special delivery - via courier "
                       style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
-        <h:outputText value="#{totalCost * 0.95}"
+        <h:outputText value="#{totalCost * 0.05}"
                       style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;"
                       converter="javax.faces.BigDecimal" float="right">
             <f:convertNumber currencySymbol="£" groupingUsed="true"
                              maxFractionDigits="2" type="currency" />
         </h:outputText>
-            <p:link value=" Select ">
-                <f:param name="post" value="#{totalCost * 0.80}" />
-            </p:link>
+            <h:commandButton value="Select this option" action="PayPal?faces-redirect=true"  actionListener="${ViewProductsManagedBean.updateTotal(totalCost*0.95)}">
+                <f:param name="#{ViewProductsManagedBean.postAndPackingCost}" value="${totalCost * 0.05}" />
+            </h:commandButton>
         </p:column>
     </p:dataTable>
-
-
-    <h3 style="margin-top:0">Basic</h3>
-    <h:panelGrid columns="2" style="margin-bottom:10px" cellpadding="5">
-        <p:outputLabel for="totalPost" value="Post and Packaging:" />
-        <p:selectOneRadio id="totalPost" value="#{ViewProductsManagedBean.cartTotal}">
-            <f:selectItem itemLabel="first class  :#{totalPost*0.4 }" itemValue="#{totalPost*0.4 }"/>
-            <f:selectItem itemLabel="second class : " itemValue="#{totalPost*0.2 }" />
-            <f:selectItem itemLabel="next day courier :" itemValue="#{totalPost*0.9 }" />
-        </p:selectOneRadio>
-    </h:panelGrid>
 </h:form>
-
-
-
-
+    <p:spacer width="100" height="100" />
 
 <h:link value="Pay with Paypal" outcome="Products?faces-redirect=true" style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px; text-align: right;" styleClass="alignmentRight"/>
 

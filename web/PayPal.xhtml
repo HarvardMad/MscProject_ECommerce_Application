@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+    <script type="text/javascript" ></script>
+    <style type="text/css">
+        .order-table {
+            border-collapse: collapse;
+        }
+        .order-table-header {
+            text-align: center;
+            background: none repeat scroll 0 0 #0099CC;
+            border-bottom: 1px solid #BBBBBB;
+        }
+        .order-table-odd-row {
+            text-align: center;
+            background: none repeat scroll 0 0 #FFFFFF;
+            border-top: 1px solid #BBBBBB;
+            padding: 15px;
+        }
+        .order-table-even-row {
+            text-align: center;
+            background: none repeat scroll 0 0 #CCFFFF;
+            border-top: 1px solid #BBBBBB;
+            padding: 15px;
+        }
+        .alignmentLeft {
+            text-align : left;
+            border: 1px solid black;
+            background-color: orange;
+        }
+        .alignmentRight {
+            text-align : right;
+            border: 1px solid black;
+            background-color: lime;
+        }
+    </style>
+
+</h:head>
+<h:body>
+    <h:outputText value="Your Cart Items"
+                  style="font-family: Verdana, Helvetica, sans-serif;font-size: 18px;  font-weight: 900;" />
+    <h:form name="ViewProductsManagedBean">
+
+        <p:dataTable id="cartTable" var="cartList"
+                     value="#{ViewProductsManagedBean.cart}" styleClass="order-table"
+                     headerClass="order-table-header"
+                     rowClasses="order-table-odd-row,order-table-even-row">
+            <p:column>
+                <f:facet name="header">
+                    <h:outputText value="Item Code"
+                                  style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+                </f:facet>
+                <h:outputText value="#{cartList.itemcode}"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;" />
+            </p:column>
+            <p:column>
+                <f:facet name="header">
+                    <h:outputText value="Description"
+                                  style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+                </f:facet>
+                <h:outputText value="#{cartList.itemdescription}"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;" />
+            </p:column>
+            <p:column>
+                <f:facet name="header">
+                    <h:outputText value="Quanitity"
+                                  style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+                </f:facet>
+                <h:outputText value="#{cartList.quantitypurchased}"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;" />
+            </p:column>
+            <p:column>
+                <f:facet name="header">
+                    <h:outputText value="Unit Price"
+                                  style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+                </f:facet>
+                <h:outputText value="#{cartList.unitprice}"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;">
+                    <f:convertNumber currencySymbol="£" groupingUsed="true"
+                                     maxFractionDigits="2" type="currency" />
+                </h:outputText>
+            </p:column>
+            <p:column>
+                <f:facet name="header">
+                    <h:outputText value="Sub Total"
+                                  style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+                </f:facet>
+                <h:outputText value="#{cartList.subtotal}"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;"
+                              converter="javax.faces.BigDecimal">
+                    <f:convertNumber currencySymbol="£" groupingUsed="true"
+                                     maxFractionDigits="2" type="currency" />
+                </h:outputText>
+
+            </p:column>
+
+            <f:facet name="footer">
+                <h:outputText value="Grand Total (inc Postage and Packing) "
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+                <h:outputText id = "totalVal" value="#{ViewProductsManagedBean.grandTotal}"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;"
+                              converter="javax.faces.BigDecimal" float="right">
+                    <f:convertNumber currencySymbol="£" groupingUsed="true"
+                                     maxFractionDigits="2" type="currency" />
+                </h:outputText>
+            </f:facet>
+        </p:dataTable>
+    </h:form>
+    <p:spacer width="10" height="100" />
+
+    <h:outputText value="Your Delivery Address"
+                  style="font-family: Verdana, Helvetica, sans-serif;font-size: 18px;  font-weight: 900;" />
+    <h:form name="ViewProductsManagedBean">
+
+        <p:dataTable id="customer" var="delAddress"
+                     value="${ViewProductsManagedBean.getCustomer(login.email,login.password)}" styleClass="order-table"
+                     headerClass="order-table-header"
+                     rowClasses="order-table-odd-row,order-table-even-row">
+            <p:column>
+                <f:facet name="header">
+                    <h:outputText value="Name"
+                                  style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+                </f:facet>
+                <h:outputText value="#{delAddress.name}"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;" />
+            </p:column>
+            <p:column>
+                <f:facet name="header">
+                    <h:outputText value="House Number"
+                                  style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+                </f:facet>
+                <h:outputText value="#{delAddress.houseNo}"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;" />
+            </p:column>
+            <p:column>
+                <f:facet name="header">
+                    <h:outputText value="Street"
+                                  style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+                </f:facet>
+                <h:outputText value="#{delAddress.street}"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;" />
+            </p:column>
+            <p:column>
+                <f:facet name="header">
+                    <h:outputText value="Town"
+                                  style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+                </f:facet>
+                <h:outputText value="#{delAddress.town}"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;">
+                </h:outputText>
+            </p:column>
+            <p:column>
+                <f:facet name="header">
+                    <h:outputText value="PostCode"
+                                  style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+                </f:facet>
+                <h:outputText value="#{delAddress.postCode}"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;">
+                </h:outputText>
+            </p:column>
+            <p:column>
+                <f:facet name="header">
+                    <h:outputText value="County"
+                                  style="font-family: Verdana, Helvetica, sans-serif;font-size: 16px;" />
+                </f:facet>
+                <h:outputText value="#{delAddress.county}"
+                              style="font-family: Verdana, Helvetica, sans-serif;font-size: 14px;">
+                </h:outputText>
+            </p:column>
+        </p:dataTable>
+    </h:form>
+    <p:spacer width="100" height="100" />
+
+
+    <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_cart" />
+        <input type="hidden" name="upload" value="1" />
+        <input type="hidden" name="business" value="laleendra-seller-1@gmail.com"/>
+        <input type="hidden" name="item_name_1" value="cart items"/>
+        <input type="hidden" name="currency_code" value="GBP"/>
+        <h:inputHidden value="10.00" id="amount_1" name="amount_1" />
+        <!--<input type="hidden" name="amount_1" value="10.00"/>-->
+
+       <!-- <input type="submit" value=" Pay with PayPal"/>-->
+
+        <!--<input type="hidden" name="hosted_button_id" value="6RNT8A4HBBJRE" />-->
+        <input type="image"
+               src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif"
+                name="submit" alt="PayPal - The safer, easier way to pay online!" />
+        <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif"
+             width="1" height="1" />
+    </form>
+
+
+</h:body>
+</html>
