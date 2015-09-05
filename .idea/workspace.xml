@@ -12,128 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4702520-8c87-43f4-900a-1cace95542c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/arquillian/tests/Greeter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/arquillian/tests/GreeterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_cal10n_cal10n_api_0_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_r06.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_api_2_0_3_b05.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_0_SP4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_jws_jsr181_api_1_0_MR1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_0_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_jaxrpc_api_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_14_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_api_1_0_0_CR6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_impl_base_1_0_0_CR6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_spi_1_0_0_CR6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_spi_1_0_0_CR6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_weld_ee_embedded_1_1_1_0_0_CR3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_api_1_0_0_CR6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_spi_1_0_0_CR6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_api_1_0_0_CR6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_spi_1_0_0_CR6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_cdi_1_0_0_CR6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_interceptor_jboss_interceptor_core_2_0_0_CR1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_interceptor_jboss_interceptor_spi_2_0_0_CR1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_jaxrs_api_2_1_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_api_1_1_0_beta_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_spi_1_1_0_beta_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_api_1_0_0_cr_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_1_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_ejb_jboss_ejb_api_3_1_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_el_jboss_el_api_2_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_enterprise_deploy_jboss_jad_api_1_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_interceptor_jboss_interceptors_api_1_1_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_jms_jboss_jms_api_1_1_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_resource_jboss_connector_api_1_5_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_security_auth_message_jboss_jaspi_api_1_0_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_security_jacc_jboss_jacc_api_1_4_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_servlet_jboss_servlet_api_3_0_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_servlet_jsp_jboss_jsp_api_2_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_xml_bind_jboss_jaxb_api_2_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_xml_registry_jboss_jaxr_api_1_0_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_xml_rpc_jboss_jaxrpc_api_1_1_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_xml_soap_jboss_saaj_api_1_3_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_xml_ws_jboss_jaxws_api_2_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_weld_weld_api_1_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_weld_weld_build_config_1_1_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_weld_weld_core_1_1_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_weld_weld_spi_1_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_ext_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_6_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/PayPal.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_jboss_arquillian_junit_arquillian_junit_container_1_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_jboss_ejb3_embedded_jboss_ejb3_embedded_impl_shrinkwrap_1_0_0_alpha_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/META-INF/persistence.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/cart/CartFacade.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/cart/ShoppingCart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/cart/ShoppingCartBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/cart/ShoppingCartLocal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/entity/Category.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/entity/CustomerEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/entity/CustomerManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/entity/CustomerManagerBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/entity/CustomerManagerLocal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/entity/Order.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/entity/Orderitem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/entity/ProductEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/managedbeans/Login.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/managedbeans/NewCustomer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/managedbeans/NewProductManagedBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/managedbeans/ShoppingCartManagedBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/managedbeans/ViewCartManagedBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/managedbeans/ViewProductsManagedBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/product/ProductFacade.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/product/ProductLocal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fcuk/com/shop/product/ProductRemote.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/cart/CartFacade.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/cart/ShoppingCart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/cart/ShoppingCartBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/cart/ShoppingCartLocal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/entity/Category.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/entity/CustomerEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/entity/CustomerManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/entity/CustomerManagerBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/entity/CustomerManagerLocal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/entity/Order.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/entity/Orderitem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/entity/ProductEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/managedbeans/Login.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/managedbeans/NewCustomer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/managedbeans/NewProductManagedBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/managedbeans/ShoppingCartManagedBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/managedbeans/ViewCartManagedBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/managedbeans/ViewProductsManagedBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/product/ProductFacade.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/product/ProductLocal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/shop/product/ProductRemote.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/entity/CustomerEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/entity/CustomerEntity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/managedbeans/Login.class" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/managedbeans/Login.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/managedbeans/NewCustomer.class" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/managedbeans/NewCustomer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/cart/ShoppingCartBean.class" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/cart/ShoppingCartBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/managedbeans/ViewProductsManagedBean.class" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/classes/com/shop/managedbeans/ViewProductsManagedBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/Checkout.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/Checkout.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Checkout.xhtml" afterPath="$PROJECT_DIR$/web/Checkout.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/Register.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/Register.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/out/artifacts/fcuk_war_exploded.war/WEB-INF/faces-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fcuk.iml" afterPath="$PROJECT_DIR$/fcuk.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fcuk.iws" />
@@ -214,7 +100,7 @@
       <file leaf-file-name="GreeterTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/arquillian/tests/GreeterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12658228">
+            <state vertical-scroll-proportion="0.37721893">
               <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -972,7 +858,7 @@
       <workItem from="1439485521829" duration="1247000" />
       <workItem from="1440673526117" duration="1169000" />
       <workItem from="1440683300811" duration="1615000" />
-      <workItem from="1440696442257" duration="43364000" />
+      <workItem from="1440696442257" duration="43467000" />
     </task>
     <task id="LOCAL-00001" summary="VCS file?">
       <created>1440696532243</created>
@@ -992,11 +878,17 @@
       <option name="project" value="LOCAL" />
       <updated>1441080569818</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit 4 05/09/2015&#10;Pay pal integration - complete&#10;Arquillian Unit Test Configuration for EJBs - Complete&#10;&#10;">
+      <created>1441464545372</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1441464545372</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="319630000" />
+    <option name="totallyTimeSpent" value="319733000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1022,7 +914,7 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39914772" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39914772" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.48707592" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1098,7 +990,8 @@
     <MESSAGE value="VCS file?" />
     <MESSAGE value="commit 2 29/08/2015" />
     <MESSAGE value="commit 3 01/09/2015" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 3 01/09/2015" />
+    <MESSAGE value="commit 4 05/09/2015&#10;Pay pal integration - complete&#10;Arquillian Unit Test Configuration for EJBs - Complete&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 4 05/09/2015&#10;Pay pal integration - complete&#10;Arquillian Unit Test Configuration for EJBs - Complete&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1588,7 +1481,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/arquillian/tests/GreeterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12658228">
+        <state vertical-scroll-proportion="0.37721893">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
