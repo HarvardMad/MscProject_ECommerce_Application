@@ -133,7 +133,7 @@
                              maxFractionDigits="2" type="currency" />
         </h:outputText>
 
-            <h:commandButton value="Select this option" action="PayPal?faces-redirect=true"  actionListener="${ViewProductsManagedBean.updateTotal(totalCost*0.40)}">
+            <h:commandButton value="Select this option" action="PayPal?faces-redirect=true"  actionListener="${ViewProductsManagedBean.updateTotal(totalCost*0.04)}">
                 <f:param name="#{ViewProductsManagedBean.postAndPackingCost}" value="${totalCost * 0.04}" />
             </h:commandButton>
 
@@ -149,7 +149,7 @@
             <f:convertNumber currencySymbol="£" groupingUsed="true"
                              maxFractionDigits="2" type="currency" />
         </h:outputText>
-            <h:commandButton value="Select this option " action="PayPal?faces-redirect=true"  actionListener="${ViewProductsManagedBean.updateTotal(totalCost*0.20)}">
+            <h:commandButton value="Select this option " action="PayPal?faces-redirect=true"  actionListener="${ViewProductsManagedBean.updateTotal(totalCost*0.03)}">
                 <f:param name="#{ViewProductsManagedBean.postAndPackingCost}" value="${totalCost * 0.03}" />
             </h:commandButton>
 
@@ -164,7 +164,7 @@
             <f:convertNumber currencySymbol="£" groupingUsed="true"
                              maxFractionDigits="2" type="currency" />
         </h:outputText>
-            <h:commandButton value="Select this option" action="PayPal?faces-redirect=true"  actionListener="${ViewProductsManagedBean.updateTotal(totalCost*0.95)}">
+            <h:commandButton value="Select this option" action="PayPal?faces-redirect=true"  actionListener="${ViewProductsManagedBean.updateTotal(totalCost*0.05)}">
                 <f:param name="#{ViewProductsManagedBean.postAndPackingCost}" value="${totalCost * 0.05}" />
             </h:commandButton>
         </p:column>

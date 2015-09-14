@@ -2,7 +2,7 @@
   <artifact type="exploded-ear" name="fcuk:ear exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/fcuk_ear_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="fcuk/javaeeApplication/javaEEApplication" />
+      <element id="javaee-facet-resources" facet="WoodysMazda_MSC_Project/javaeeApplication/javaEEApplication" />
       <element id="directory" name="ejb.jar">
         <element id="artifact" artifact-name="fcuk:ejb exploded" />
       </element>
@@ -12,6 +12,9 @@
         <element id="library" level="project" name="Java EE 6-Java EE 6" />
         <element id="library" level="project" name="javax.faces-2.3.0-m03" />
         <element id="library" level="project" name="PrimeFaces-5.2" />
+        <element id="library" level="project" name="org.jboss.arquillian.junit:arquillian-junit-container:1.0.1.Final" />
+        <element id="library" level="project" name="PrimeFaces-5.2 (2)" />
+        <element id="library" level="project" name="PrimeFaces-5.2 (3)" />
       </element>
     </root>
   </artifact>
