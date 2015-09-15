@@ -39,8 +39,8 @@ Running the system:<br />
 Build the system using a build tool such as Ant of Maven
 deply it on to wildfly
 restart the server
-open your favourte browser and type http://localhost:8081/fcuk_war_exploded/welcome.xhtml 
-Notice that Wildfly is listening on port 8081. Please note, you hav to follow above link to configure the application server before running the system.
+open your favourte browser and type <br /> http://localhost:8081/fcuk_war_exploded/welcome.xhtml 
+Notice that i have configured Wildfly to listen on port 8081. Please note, you have to follow above screencast link to configure the application server before running the system.
 
 Logging in
 username: amberw@gmail.com
